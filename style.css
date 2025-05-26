@@ -63,22 +63,19 @@ nav a {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.skill-list li i {
-  margin-right: 8px;
-}
-
+/* Hover 효과 */
 .skill-list li:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* 기술별 색상 */
-.html       { background-color: #e44d26; }
-.css        { background-color: #2965f1; }
-.responsive { background-color: #0f9d58; }
-.git        { background-color: #f1502f; }
-.csharp     { background-color: #68217A; }
-.unity      { background-color: #000000; }
+/* 기술별 정확한 상징 색상 */
+.html       { background-color: #E34F26; } /* HTML5 */
+.css        { background-color: #1572B6; } /* CSS3 */
+.responsive { background-color: #0F9D58; } /* 반응형 웹 */
+.git        { background-color: #F05033; } /* Git */
+.csharp     { background-color: #9B4F96; } /* C# (.NET 계열) */
+.unity      { background-color: #222C37; } /* Unity */
 
 /* 다크모드 대응 */
 @media (prefers-color-scheme: dark) {
