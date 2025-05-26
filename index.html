@@ -3,37 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>나의의 포트폴리오</title>
+  <title>포트폴리오</title>
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
-    <h1>나의의 포트폴리오</h1>
+    <h1>포트폴리오</h1>
     <nav>
       <ul>
-        <li><a href="index.html" class="active">소개</a></li>
-        <li><a href="resume.html">이력서</a></li>
-        <li><a href="projects.html">프로젝트</a></li>
-        <li><a href="contact.html">연락처</a></li>
+        <li><a href="#intro">1. 소개</a></li>
+        <li><a href="#skills">2. 기술 스택</a></li>
+        <li><a href="#resume">3. 이력서</a></li>
+        <li><a href="#projects">4. 프로젝트</a></li>
+        <li><a href="#contact">5. 연락처</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="profile">
-      <img src="assets/profile.jpg" alt="홍길동 프로필 사진" />
-      <h2>송규섭</h2>
-      <p>내 설명</p>
+    <!-- 1. 소개 -->
+    <section id="intro" class="card">
+      <h2>1. 소개</h2>
+      <img src="assets/profile.jpg" alt="홍길동 프로필" />
+      <p>안녕하세요. </p>
     </section>
 
-    <section class="skills">
-      <h3>기술 스택</h3>
+    <!-- 2. 기술 스택 -->
+    <section id="skills" class="card">
+      <h2>2. 기술 스택</h2>
       <ul class="skill-list">
         <li>HTML5</li>
         <li>CSS3</li>
-        <li>Responsive Design</li>
-        <li>Git & GitHub</li>
+        <li>반응형 웹</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <!-- 3. 이력서 요약 -->
+    <section id="resume" class="card">
+      <h2>3. 이력서</h2>
+      <ul>
+        <li>학력: 군산산대학교 컴퓨터공학과</li>
+        <li>자격증: 정보처리기사 (필기 준비 중)</li>
+        <li>기타: </li>
+      </ul>
+    </section>
+
+    <!-- 4. 프로젝트 -->
+    <section id="projects" class="card">
+      <h2>4. 프로젝트</h2>
+      <p>아직 진행 중이지만, HTML/CSS로 제작한 자기소개 페이지, 반응형 레이아웃 페이지 등을 정리해둘 예정입니다.</p>
+    </section>
+
+    <!-- 5. 연락처 -->
+    <section id="contact" class="card">
+      <h2>5. 연락처</h2>
+      <ul>
+        <li>이메일: rbtjq0302@naver.com</li>
+        <li>GitHub: github.com/gs0302</li>
       </ul>
     </section>
   </main>
